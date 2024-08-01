@@ -1,0 +1,151 @@
+
+>>> Train Epoch: [1 / 1000]
+Training Epoch 1 -- Loss: 6.41893 | MRR = 0.01291 | TOP1 = 0.00184 | TOP5 = 0.01105 | TOP10 = 0.02026 | NDCG1 = 0.00184 | NDCG5 = 0.00622 | NDCG10 = 0.00906
+
+>>> Dev Epoch: [1 / 1000]
+Validation Epoch 1 -- Loss: 32.39812 | MRR = 0.01159 | TOP1 = 0.00166 | TOP5 = 0.00832 | TOP10 = 0.01664 | NDCG1 = 0.00166 | NDCG5 = 0.00491 | NDCG10 = 0.00756
+!!! Updated: 
+MRR = 0.01159
+TOP1 = 0.00166
+TOP5 = 0.00832
+TOP10 = 0.01664
+NDCG1 = 0.00166
+NDCG5 = 0.00491
+NDCG10 = 0.00756
+
+
+>>> Train Epoch: [2 / 1000]
+Training Epoch 2 -- Loss: 45.00638 | MRR = 0.01266 | TOP1 = 0.00184 | TOP5 = 0.00921 | TOP10 = 0.01842 | NDCG1 = 0.00184 | NDCG5 = 0.00543 | NDCG10 = 0.00837
+
+>>> Dev Epoch: [2 / 1000]
+Validation Epoch 2 -- Loss: 8.13052 | MRR = 0.01161 | TOP1 = 0.00166 | TOP5 = 0.00832 | TOP10 = 0.01664 | NDCG1 = 0.00166 | NDCG5 = 0.00491 | NDCG10 = 0.00756
+!!! Updated: 
+MRR = 0.01161
+TOP1 = 0.00166
+TOP5 = 0.00832
+TOP10 = 0.01664
+NDCG1 = 0.00166
+NDCG5 = 0.00491
+NDCG10 = 0.00756
+
+
+>>> Train Epoch: [3 / 1000]
+Training Epoch 3 -- Loss: 9.23396 | MRR = 0.01273 | TOP1 = 0.00184 | TOP5 = 0.00921 | TOP10 = 0.01842 | NDCG1 = 0.00184 | NDCG5 = 0.00543 | NDCG10 = 0.00842
+
+>>> Dev Epoch: [3 / 1000]
+Validation Epoch 3 -- Loss: 12.93282 | MRR = 0.01168 | TOP1 = 0.00000 | TOP5 = 0.00998 | TOP10 = 0.01997 | NDCG1 = 0.00000 | NDCG5 = 0.00534 | NDCG10 = 0.00846
+!!! Updated: 
+MRR = 0.01168
+TOP1 = 0.00000
+TOP5 = 0.00998
+TOP10 = 0.01997
+NDCG1 = 0.00000
+NDCG5 = 0.00534
+NDCG10 = 0.00846
+
+
+>>> Train Epoch: [4 / 1000]
+Training Epoch 4 -- Loss: 14.90059 | MRR = 0.01211 | TOP1 = 0.00184 | TOP5 = 0.00737 | TOP10 = 0.01289 | NDCG1 = 0.00184 | NDCG5 = 0.00435 | NDCG10 = 0.00610
+
+>>> Dev Epoch: [4 / 1000]
+Validation Epoch 4 -- Loss: 8.11742 | MRR = 0.01079 | TOP1 = 0.00000 | TOP5 = 0.00832 | TOP10 = 0.01830 | NDCG1 = 0.00000 | NDCG5 = 0.00400 | NDCG10 = 0.00707
+
+>>> Train Epoch: [5 / 1000]
+Training Epoch 5 -- Loss: 7.82216 | MRR = 0.01181 | TOP1 = 0.00000 | TOP5 = 0.00552 | TOP10 = 0.01842 | NDCG1 = 0.00000 | NDCG5 = 0.00324 | NDCG10 = 0.00751
+
+>>> Dev Epoch: [5 / 1000]
+Validation Epoch 5 -- Loss: 8.52780 | MRR = 0.00838 | TOP1 = 0.00000 | TOP5 = 0.00166 | TOP10 = 0.00998 | NDCG1 = 0.00000 | NDCG5 = 0.00105 | NDCG10 = 0.00368
+
+>>> Train Epoch: [6 / 1000]
+Training Epoch 6 -- Loss: 9.70025 | MRR = 0.00931 | TOP1 = 0.00184 | TOP5 = 0.00552 | TOP10 = 0.01105 | NDCG1 = 0.00184 | NDCG5 = 0.00335 | NDCG10 = 0.00520
+
+>>> Dev Epoch: [6 / 1000]
+Validation Epoch 6 -- Loss: 10.11673 | MRR = 0.01161 | TOP1 = 0.00166 | TOP5 = 0.00832 | TOP10 = 0.01664 | NDCG1 = 0.00166 | NDCG5 = 0.00498 | NDCG10 = 0.00759
+
+>>> Train Epoch: [7 / 1000]
+Training Epoch 7 -- Loss: 12.42340 | MRR = 0.01587 | TOP1 = 0.00368 | TOP5 = 0.01473 | TOP10 = 0.02578 | NDCG1 = 0.00368 | NDCG5 = 0.00865 | NDCG10 = 0.01243
+
+>>> Dev Epoch: [7 / 1000]
+Validation Epoch 7 -- Loss: 8.08115 | MRR = 0.00979 | TOP1 = 0.00000 | TOP5 = 0.00666 | TOP10 = 0.01498 | NDCG1 = 0.00000 | NDCG5 = 0.00310 | NDCG10 = 0.00573
+
+>>> Train Epoch: [8 / 1000]
+Training Epoch 8 -- Loss: 9.26362 | MRR = 0.01205 | TOP1 = 0.00184 | TOP5 = 0.00552 | TOP10 = 0.01842 | NDCG1 = 0.00184 | NDCG5 = 0.00335 | NDCG10 = 0.00755
+
+>>> Dev Epoch: [8 / 1000]
+Validation Epoch 8 -- Loss: 7.30088 | MRR = 0.01153 | TOP1 = 0.00166 | TOP5 = 0.00666 | TOP10 = 0.01331 | NDCG1 = 0.00166 | NDCG5 = 0.00448 | NDCG10 = 0.00656
+
+>>> Train Epoch: [9 / 1000]
+Training Epoch 9 -- Loss: 7.14903 | MRR = 0.01741 | TOP1 = 0.00552 | TOP5 = 0.01657 | TOP10 = 0.03499 | NDCG1 = 0.00552 | NDCG5 = 0.01025 | NDCG10 = 0.01589
+
+>>> Dev Epoch: [9 / 1000]
+Validation Epoch 9 -- Loss: 7.35980 | MRR = 0.01266 | TOP1 = 0.00166 | TOP5 = 0.00998 | TOP10 = 0.01830 | NDCG1 = 0.00166 | NDCG5 = 0.00614 | NDCG10 = 0.00878
+!!! Updated: 
+MRR = 0.01266
+TOP1 = 0.00166
+TOP5 = 0.00998
+TOP10 = 0.01830
+NDCG1 = 0.00166
+NDCG5 = 0.00614
+NDCG10 = 0.00878
+
+
+>>> Train Epoch: [10 / 1000]
+Training Epoch 10 -- Loss: 6.98640 | MRR = 0.01780 | TOP1 = 0.00368 | TOP5 = 0.01657 | TOP10 = 0.02394 | NDCG1 = 0.00368 | NDCG5 = 0.01028 | NDCG10 = 0.01271
+
+>>> Dev Epoch: [10 / 1000]
+Validation Epoch 10 -- Loss: 7.11957 | MRR = 0.01133 | TOP1 = 0.00000 | TOP5 = 0.00666 | TOP10 = 0.01830 | NDCG1 = 0.00000 | NDCG5 = 0.00387 | NDCG10 = 0.00771
+
+>>> Train Epoch: [11 / 1000]
+Training Epoch 11 -- Loss: 6.73028 | MRR = 0.01915 | TOP1 = 0.00368 | TOP5 = 0.02394 | TOP10 = 0.03499 | NDCG1 = 0.00368 | NDCG5 = 0.01353 | NDCG10 = 0.01687
+
+>>> Dev Epoch: [11 / 1000]
+Validation Epoch 11 -- Loss: 6.80470 | MRR = 0.01161 | TOP1 = 0.00166 | TOP5 = 0.00666 | TOP10 = 0.01498 | NDCG1 = 0.00166 | NDCG5 = 0.00419 | NDCG10 = 0.00694
+
+>>> Train Epoch: [12 / 1000]
+Training Epoch 12 -- Loss: 6.40645 | MRR = 0.02025 | TOP1 = 0.00552 | TOP5 = 0.02210 | TOP10 = 0.03683 | NDCG1 = 0.00552 | NDCG5 = 0.01349 | NDCG10 = 0.01817
+
+>>> Dev Epoch: [12 / 1000]
+Validation Epoch 12 -- Loss: 6.57955 | MRR = 0.01042 | TOP1 = 0.00000 | TOP5 = 0.00832 | TOP10 = 0.01498 | NDCG1 = 0.00000 | NDCG5 = 0.00403 | NDCG10 = 0.00620
+
+>>> Train Epoch: [13 / 1000]
+Training Epoch 13 -- Loss: 6.39210 | MRR = 0.01868 | TOP1 = 0.00184 | TOP5 = 0.01842 | TOP10 = 0.04420 | NDCG1 = 0.00184 | NDCG5 = 0.00997 | NDCG10 = 0.01835
+
+>>> Dev Epoch: [13 / 1000]
+Validation Epoch 13 -- Loss: 6.51191 | MRR = 0.01048 | TOP1 = 0.00000 | TOP5 = 0.00499 | TOP10 = 0.01498 | NDCG1 = 0.00000 | NDCG5 = 0.00282 | NDCG10 = 0.00617
+
+>>> Train Epoch: [14 / 1000]
+Training Epoch 14 -- Loss: 6.24433 | MRR = 0.02128 | TOP1 = 0.00368 | TOP5 = 0.02210 | TOP10 = 0.04788 | NDCG1 = 0.00368 | NDCG5 = 0.01270 | NDCG10 = 0.02105
+
+>>> Dev Epoch: [14 / 1000]
+Validation Epoch 14 -- Loss: 6.48599 | MRR = 0.01034 | TOP1 = 0.00000 | TOP5 = 0.00832 | TOP10 = 0.01664 | NDCG1 = 0.00000 | NDCG5 = 0.00367 | NDCG10 = 0.00618
+
+>>> Train Epoch: [15 / 1000]
+Training Epoch 15 -- Loss: 6.19775 | MRR = 0.02079 | TOP1 = 0.00368 | TOP5 = 0.02026 | TOP10 = 0.04236 | NDCG1 = 0.00368 | NDCG5 = 0.01199 | NDCG10 = 0.01930
+
+>>> Dev Epoch: [15 / 1000]
+Validation Epoch 15 -- Loss: 6.48167 | MRR = 0.01190 | TOP1 = 0.00166 | TOP5 = 0.00832 | TOP10 = 0.01498 | NDCG1 = 0.00166 | NDCG5 = 0.00476 | NDCG10 = 0.00687
+
+>>> Train Epoch: [16 / 1000]
+Training Epoch 16 -- Loss: 6.16471 | MRR = 0.02675 | TOP1 = 0.00921 | TOP5 = 0.02578 | TOP10 = 0.05341 | NDCG1 = 0.00921 | NDCG5 = 0.01718 | NDCG10 = 0.02609
+
+>>> Dev Epoch: [16 / 1000]
+Validation Epoch 16 -- Loss: 6.47704 | MRR = 0.01140 | TOP1 = 0.00000 | TOP5 = 0.00832 | TOP10 = 0.01997 | NDCG1 = 0.00000 | NDCG5 = 0.00410 | NDCG10 = 0.00780
+
+>>> Train Epoch: [17 / 1000]
+Training Epoch 17 -- Loss: 6.15410 | MRR = 0.03095 | TOP1 = 0.01105 | TOP5 = 0.03683 | TOP10 = 0.05525 | NDCG1 = 0.01105 | NDCG5 = 0.02414 | NDCG10 = 0.03008
+
+>>> Dev Epoch: [17 / 1000]
+Validation Epoch 17 -- Loss: 6.46832 | MRR = 0.01184 | TOP1 = 0.00000 | TOP5 = 0.01165 | TOP10 = 0.01997 | NDCG1 = 0.00000 | NDCG5 = 0.00543 | NDCG10 = 0.00805
+
+>>> Train Epoch: [18 / 1000]
+Training Epoch 18 -- Loss: 6.12423 | MRR = 0.03235 | TOP1 = 0.01289 | TOP5 = 0.03683 | TOP10 = 0.05157 | NDCG1 = 0.01289 | NDCG5 = 0.02442 | NDCG10 = 0.02918
+
+>>> Dev Epoch: [18 / 1000]
+Validation Epoch 18 -- Loss: 6.45759 | MRR = 0.01197 | TOP1 = 0.00000 | TOP5 = 0.00832 | TOP10 = 0.01830 | NDCG1 = 0.00000 | NDCG5 = 0.00422 | NDCG10 = 0.00749
+
+>>> Train Epoch: [19 / 1000]
+Training Epoch 19 -- Loss: 6.12007 | MRR = 0.03004 | TOP1 = 0.00921 | TOP5 = 0.03315 | TOP10 = 0.05893 | NDCG1 = 0.00921 | NDCG5 = 0.02097 | NDCG10 = 0.02937
+
+>>> Dev Epoch: [19 / 1000]
+Validation Epoch 19 -- Loss: 6.45165 | MRR = 0.01183 | TOP1 = 0.00000 | TOP5 = 0.00832 | TOP10 = 0.01664 | NDCG1 = 0.00000 | NDCG5 = 0.00422 | NDCG10 = 0.00685
+Test -- Loss: 8.14791 | MRR = 0.01813 | TOP1 = 0.00746 | TOP5 = 0.01493 | TOP10 = 0.02425 | NDCG1 = 0.00746 | NDCG5 = 0.01085 | NDCG10 = 0.01369
