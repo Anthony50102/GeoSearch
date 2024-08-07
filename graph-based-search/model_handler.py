@@ -23,6 +23,7 @@ class ModelHandler(object):
                              'NDCG10': AverageMeter()}
         self.logger = DummyLogger(config, dirname=config['out_dir'], pretrained=config['pretrained'])
         self.dirname = self.logger.dirname
+        self.savedirname = config["save_file"]
         if not config['no_cuda'] and torch.cuda.is_available():
             print('[ Using CUDA ]')
             self.device = torch.device('cuda' if config['cuda_id'] < 0 else 'cuda:%d' % config['cuda_id'])
@@ -95,7 +96,7 @@ class ModelHandler(object):
                     self._best_metrics[k] = self._dev_metrics[k].mean()
 
                 if self.config['save_params']:
-                    self.model.save(self.dirname, self._epoch)
+                    self.model.save(self.savedirname, self._epoch)
                     print('Saved model to {}'.format(self.dirname))
                 format_str = "!!! Updated: " + self.best_metric_to_str(self._best_metrics)
                 self.logger.write_to_file(format_str)

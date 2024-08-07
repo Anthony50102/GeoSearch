@@ -14,6 +14,7 @@ index_file: '/home/GeoSearch-main/graph-based-search/config/python_index.json'
 index_name: 'python_code_vecs_colab'
 query_file: '/home/GeoSearch-main/graph-based-search/data/queries.csv'
 answer_file: '/home/GeoSearch-main/graph-based-search/data/Python_GraphAns.csv'
+save_file: '/content/drive/MyDrive'
 
 
 # Preprocessing
@@ -37,7 +38,7 @@ enc_rnn_dropout: 0.3
 
 # Graph neural networks
 graph_type: 'ggnn_bi'       # ggnn_bi
-graph_hops: 4        # 3 is optimal
+graph_hops: 3        # 3 is optimal
 graph_direction: 'all'    # 'all', 'forward', 'backward'
 message_function: 'no_edge'   # 'edge_mm', 'edge_network', 'edge_pair', 'no_edge'
 
