@@ -250,6 +250,8 @@ def cal_query_features(network, ex):
                                                doc_sequence_embedded_mask.unsqueeze(1))
     global_doc_state = torch.div(torch.sum(weighted_doc, dim=1), ex['target_lens'].unsqueeze(1).float())
     local_doc_state = network.graph_maxpool(doc_node_embedding, doc_node_mask).squeeze()
+    if local_doc_state.dim() == 1:
+            local_doc_state = local_doc_state.unsqueeze(0)  # Add a dimension if necessary
     if network.des_info_type in ['all']:
         tgt_state = torch.cat([local_doc_state, global_doc_state], dim=-1)
     elif network.des_info_type in ['global']:
