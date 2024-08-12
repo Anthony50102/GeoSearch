@@ -9,11 +9,11 @@ pretrained_word_embed_file: ''
 pretrained:
 
 # Output
-out_dir: '/home/GeoSearch-main/graph-based-search/output/Python_Graph2Search_no_edge_all_full'
+out_dir: '/content/drive/MyDrive/output/Python_Graph2Search_no_edge_all_full'
 index_file: '/home/GeoSearch-main/graph-based-search/config/python_index.json'
 index_name: 'python_code_vecs_colab'
 query_file: '/home/GeoSearch-main/graph-based-search/data/queries.csv'
-answer_file: '/home/GeoSearch-main/graph-based-search/data/Python_GraphAns.csv'
+answer_file: '/content/drive/MyDrive/Python_GraphAns.csv'
 save_file: '/content/drive/MyDrive'
 
 
@@ -55,7 +55,7 @@ early_stop_metric: 'MRR'
 
 random_seed: 2020
 shuffle: True # Whether to shuffle the examples during training
-max_epochs: 200
+max_epochs: 25
 batch_size: 1000 # No. of dialogs per batch
 patience: 10
 verbose: 1000 # Print every X batches
