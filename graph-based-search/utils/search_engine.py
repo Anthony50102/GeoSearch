@@ -62,6 +62,63 @@ class search_engine:
         df.to_csv(self.save_file, index=False)
         print('Answer query finished')
 
+    def search_single_query(self, query, search_size=10):
+        # Prepare the query
+        instance = {}
+        instance['doc_graph'] = build_desc_graph(query, file=None)
+        instance['doc_graph'] = normalize_des_graph(instance['doc_graph'])
+        instance = Graph(instance, docGraph=True, isLower='True')
+
+        # Embed the query
+        ex = self.build_batch_data([instance])
+        query_embedded = cal_query_features(self.model.network, ex)
+
+        # Set up Elasticsearch client
+        client = Elasticsearch(
+            os.getenv('ELASTIC_ENDPOINT'),
+            api_key=os.getenv('ELASTIC_API_KEY'),
+        )
+
+        # Prepare the script query
+        script_query = {
+            "script_score": {
+                "query": {"match_all": {}},
+                "script": {
+                    "source": "cosineSimilarity(params.query_vector, 'code_state') + 1.0",
+                    "params": {"query_vector": query_embedded[0].tolist()}
+                }
+            }
+        }
+
+        # Perform the search
+        response = client.search(index=self.config['index_name'], body={
+            "size": search_size,
+            "query": script_query,
+            "_source": {"includes": ['code_func', 'identifier', 'url']}
+        })
+
+        # Prepare the results
+        results = []
+        for hit in response["hits"]["hits"]:
+            result = {
+                'query': query,
+                'function': hit["_source"]['code_func'],
+                'identifier': hit["_source"]['identifier'],
+                'url': hit["_source"]['url'],
+                'score': hit['_score']
+            }
+            results.append(result)
+
+        # Prepare the final response
+        final_response = {
+            'query': query,
+            'results': results,
+            'total_hits': response['hits']['total']['value'],
+            'max_score': response['hits']['max_score']
+        }
+
+        return final_response
+    
     def build_batch_data(self, instances):
         doc_word_lengths = []
         doc_words = []
