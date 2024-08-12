@@ -10,7 +10,7 @@ from functools import lru_cache
 from . import constants
 
 
-word_detector = re.compile('\w')
+word_detector = re.compile(r'\w')
 
 
 class VocabModel(object):
