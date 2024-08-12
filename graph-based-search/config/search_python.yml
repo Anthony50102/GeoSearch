@@ -4,7 +4,7 @@ trainset: '/home/CodeSearchNet/resources/data/python/final/jsonl/train/graph_tra
 devset: '/home/CodeSearchNet/resources/data/python/final/jsonl/valid/graph_valid_gnn.jsonl.gz'
 testset: '/home/CodeSearchNet/resources/data/python/final/jsonl/test/graph_test_gnn.jsonl.gz'
 vector_db: '/home/CodeSearchNet/resources/data/python_base_gz'
-saved_vocab_file: '/home/GeoSearch-main/graph-based-search/data/python_vocab_150k_3fre_codenet_128.pkl'
+saved_vocab_file: '/content/drive/MyDrive/python_vocab_150k_3fre_codenet_128.pkl'
 pretrained_word_embed_file: ''
 pretrained:
 
@@ -67,4 +67,3 @@ logging: False # Turn it off for Codalab
 # Device
 no_cuda: False
 cuda_id: -1
-

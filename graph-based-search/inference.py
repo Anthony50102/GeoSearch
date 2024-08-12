@@ -17,5 +17,6 @@ class CodeSearch():
         self.se = search_engine(model_handle=self.model_handle, config=config)
     
     def search(self, query: list):
-        return self.se.search(query)
+      return self.se.search_single_query(query)
+        
         
